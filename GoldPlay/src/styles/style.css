@@ -1,0 +1,28 @@
+@import url(./global.css);
+
+/* -------------- HEADER -------------- */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--color-black);
+}
+
+.header-navigation{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.itens-navigation{
+    display: flex;
+    gap: 25px;
+}
+
+.itens-navigation li a{
+    color: var(--color-foreground);
+    font-family: var(--font-body);
+    font-size: var(--font-size-body);
+}
+
